@@ -330,6 +330,13 @@ main
 {
     color:blue;
 }
+#contact .whole .link a
+{
+    font-family: 'Labrada', serif;
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+}
 #contact .whole .link a:hover
 {
     color:blue;
