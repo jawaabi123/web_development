@@ -330,7 +330,10 @@ main
 {
     color:blue;
 }
-
+#contact .whole .link a:hover
+{
+    color:blue;
+}
 footer 
 {
 
