@@ -2,6 +2,28 @@
 {
     box-sizing: border-box;
 }
+body
+{
+    margin:0px;
+    background-color: rgba(246, 187, 59, 0.49);
+}
+header
+{
+    display: grid;
+    font-family: 'Patua One', cursive;
+    height:90px;
+    width:100%;
+    text-align:center;
+    color:white;
+    background-color:#0a76a8c9;
+    
+    margin:0px;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+}
 nav 
 {
     overflow: hidden;
@@ -18,22 +40,34 @@ nav a
     font-family: 'Merienda', cursive;
     color: white;
 }
-
-body
+#image
 {
-    margin:0px;
-    background-color: rgba(252, 252, 252, 0.985);
-}
-header
-{
-    display: grid;
-    font-family: 'Patua One', cursive;
-    height:90px;
     width:100%;
-    text-align:center;
-    color:black;
-    background-color:rgb(116, 232, 124);
-    margin:0px;
+    height:500px;
+    background:#0a76a8c9;
+    color:#fff;
+    padding:0 8.5%;
+    position:relative;
+}
+#image .text-box
+{
+    margin-top: -3.5%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.text-box h1
+{
+    font-size: 65px;
+    line-height: 160px;
+}
+.user-img
+{
+    width:480px;
+    position:absolute;
+    right:0%;
+    top:5%;
+    bottom:0;
 }
 
 main
@@ -54,6 +88,7 @@ main
     font-size: 20px;
     font-family: 'Labrada', serif;
     font-weight:normal;
+    color:rgb(25, 14, 2);
     text-decoration: none;
     word-spacing: 2px;
     line-height: 30px;
@@ -257,14 +292,6 @@ main
     color:#41b734;
     border:4px solid #34b7a7;
 }
-/* h2
-{
-    font-weight: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    text-align: center;
-    
-}*/
 
 #contact h2
 {
@@ -330,17 +357,7 @@ main
 {
     color:blue;
 }
-#contact .whole .link a
-{
-    font-family: 'Labrada', serif;
-    font-size:20px;
-    text-decoration: none;
-    color: black;
-}
-#contact .whole .link a:hover
-{
-    color:blue;
-}
+
 footer 
 {
 
@@ -365,6 +382,6 @@ footer span
 footer img
 {
     height:20px;
-    width:20px; 
+    width:20px;
     margin:5px;
 }
