@@ -40,6 +40,10 @@ nav a
     font-family: 'Merienda', cursive;
     color: white;
 }
+nav a:hover
+{
+    color:yellow;
+}
 #image
 {
     width:100%;
