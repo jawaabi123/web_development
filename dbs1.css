@@ -5,7 +5,7 @@
 body
 {
     margin:0px;
-    background-color: rgba(246, 187, 59, 0.49);
+    background-color: rgba(246, 182, 20, 0.403);
 }
 header
 {
@@ -21,7 +21,6 @@ header
 header h1
 {
     font-size: 40px;
-    text-align: center;
 }
 nav 
 {
@@ -35,7 +34,7 @@ nav a
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    float: left;
+    float:left;
     font-family: 'Merienda', cursive;
     color: white;
 }
@@ -47,7 +46,7 @@ nav a:hover
 {
     margin-top: -3%;
     width:100%;
-    height:450px;
+    height:470px;
     background:#0a76a8c9;
     color:#fff;
     padding:0 6.5%;
@@ -62,7 +61,7 @@ nav a:hover
 #image .user-img
 {
     height:420px;
-    width:380px;
+    width:350px;
     position:absolute;
     right:1%;
     top:5%;
@@ -74,7 +73,7 @@ main
     margin: 35px; 
 }
 
-#para h2
+#objectives #para h2
 {
     font-size:32px;
     font-weight: bolder;
@@ -92,39 +91,41 @@ main
     word-spacing: 2px;
     line-height: 30px;
 }
-#img img
-{
-    height:370px;
-    width:350px;
-    float:left;
-}
-#ri
-{
-    display:flex;
-    grid-template-columns: 500px 100px;
-}
 #content
 {
     display: flex;
     grid-auto-columns: auto;
     list-style-type: none;    
 }
+#img img
+{
+    height:390px;
+    width:330px;
+    float:left;
+}
 .dob
 {
     margin:10px;
+   
 }
 .dob h3
 {
     text-align: center;
     font-size:27px;
     font-family: 'Patua One', cursive;
-    
 }
 .dob p
 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-weight: lighter;
    text-align: center;
+}
+.points 
+{
+    line-height: 40px;
+    display:flex;
+    grid-auto-columns: auto;
+    gap: 260px;
 }
 .dob .points .left  li
 {
@@ -142,24 +143,7 @@ main
 }
 .dob .points .right,.left
 {
-    margin:17px;
-}
-.points 
-{
-    line-height: 40px;
-    display:flex;
-    grid-auto-columns: auto;
-    grid-gap: 260px;
-}
-.right a
-{
-    color:black;
-    text-decoration: none;
-   
-}
-.right a:hover
-{
-    color:blue;
+    margin:16px;
 }
 
 #skills h2
