@@ -46,30 +46,25 @@ nav a:hover
 }
 #image
 {
+    margin-top: -3%;
     width:100%;
-    height:500px;
+    height:450px;
     background:#0a76a8c9;
     color:#fff;
-    padding:0 8.5%;
+    padding:0 6.5%;
     position:relative;
-}
-#image .text-box
-{
-    margin-top: -3.5%;
-    font-size: 17px;
-    letter-spacing: 1px;
-    line-height: 26px;
 }
 .text-box h1
 {
     font-size: 65px;
-    line-height: 160px;
+    line-height: 330px;
+    letter-spacing: 1px;
 }
-.user-img
+#image .user-img
 {
     width:480px;
     position:absolute;
-    right:0%;
+    right:1%;
     top:5%;
     bottom:0;
 }
@@ -222,39 +217,7 @@ main
     transition: 0.9s;
     background-color: #b76434;
 }
-#personal h2
-{
-    font-weight: 10px;
-    font-family: 'Patua One', cursive;
-    font-size: 32px;
-    text-align: center;
-}
-#personal .container
-{
-    
-    height:500px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.swiper
-{
-    width:450px;
-    height:450px;
-}
-.swiper-slide img
-{
-    width:450px;
-    height:450px;
-}
-.swiper .swiper-button-prev ,.swiper .swiper-button-next
-{
-    color: white;
-}
-.swiper .swiper-pagination-bullet-active
-{
-    background:white;
-}
+
 
 #achievement h2
 {
@@ -296,6 +259,41 @@ main
     color:#41b734;
     border:4px solid #34b7a7;
 }
+
+#personal h2
+{
+    font-weight: 10px;
+    font-family: 'Patua One', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+#personal .container
+{
+    
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper
+{
+    width:450px;
+    height:450px;
+}
+.swiper .swiper-wrapper .swiper-slide img
+{
+    width:450px;
+    height:450px;
+}
+.swiper .swiper-button-prev ,.swiper .swiper-button-next
+{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active
+{
+    background:white;
+}
+
 
 #contact h2
 {
