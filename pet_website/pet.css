@@ -1,0 +1,55 @@
+#link
+{
+    text-decoration: none;
+    font-style: italic;
+    color:chocolate;
+    font-size:30px;
+}
+h1
+{
+    font-size: 50px;
+}
+#pet
+{
+    color:burlywood;
+}
+#whole
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#div1
+{
+
+    width:390px;
+    border:2px solid black;
+    border-radius: 25px;
+    
+}
+#div1 img
+{
+    height:200px;
+    width:95%;
+    padding-top:10px;
+    padding-left:10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+h2
+{
+    padding-left:10px;
+}
+p
+{
+    padding-left: 10px;
+}
+
+@media (max-width:376px) {
+    #whole
+    {
+        flex-wrap: wrap;
+    }
+    
+}
